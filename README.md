@@ -24,17 +24,17 @@ Unlike standard ICMP Pings, this script uses `System.Net.Sockets.TcpClient` to t
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/tcp-latency-monitor.git](https://github.com/your-username/tcp-latency-monitor.git)
+    git clone [https://github.com/angelinhow/latency_status.git](https://github.com/angelinhow/latency_status.git)
     ```
 
 2.  **Navigate to the directory:**
     ```bash
-    cd tcp-latency-monitor
+    cd latency_status
     ```
 
 3.  **Run the script:**
     ```powershell
-    .\Verificar Status de Latência.ps1
+    .\SCRIPT_LATENCY_STATUS.ps1
     ```
     *(Note: You may need to allow script execution depending on your policy: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`)*
 
